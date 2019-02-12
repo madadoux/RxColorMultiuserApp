@@ -1,0 +1,50 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - RxCocoa (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxStarscream (0.9):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+    - Starscream (~> 3.0)
+  - RxSwift (4.3.1)
+  - Socket.IO-Client-Swift (13.3.1):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.6)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - RxCocoa
+  - RxStarscream
+  - RxSwift
+  - Socket.IO-Client-Swift (~> 13.3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxCocoa
+    - RxStarscream
+    - RxSwift
+    - Socket.IO-Client-Swift
+    - Starscream
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
+  RxStarscream: 8f3a9d2e6e03dbc136f29b1db9874fc3478c991b
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  Socket.IO-Client-Swift: 79f8f85fa44881838175a20f9bd2c32bef2c9d37
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+
+PODFILE CHECKSUM: d1e494e60198af4f7df47e9ff52e6d9fc9058d44
+
+COCOAPODS: 1.5.2
